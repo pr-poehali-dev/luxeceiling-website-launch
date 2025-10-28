@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,37 +6,37 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 220 20% 15%;
+    --background: 240 20% 99%;
+    --foreground: 240 15% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 20% 15%;
+    --card-foreground: 240 15% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 15%;
+    --popover-foreground: 240 15% 10%;
 
-    --primary: 220 30% 12%;
+    --primary: 210 100% 40%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 100% 90%;
-    --secondary-foreground: 220 30% 12%;
+    --secondary: 200 25% 95%;
+    --secondary-foreground: 210 100% 40%;
 
-    --muted: 220 15% 95%;
-    --muted-foreground: 220 15% 45%;
+    --muted: 210 30% 97%;
+    --muted-foreground: 210 15% 50%;
 
-    --accent: 18 100% 55%;
+    --accent: 165 100% 38%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 88%;
-    --input: 220 15% 88%;
-    --ring: 18 100% 55%;
+    --border: 210 25% 90%;
+    --input: 210 25% 90%;
+    --ring: 165 100% 38%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --gold: 45 100% 60%;
+    --gold: 165 100% 38%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,7 +101,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   h1,
@@ -110,7 +110,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Cormorant", serif;
+    font-family: "Playfair Display", serif;
     font-weight: 600;
   }
 }

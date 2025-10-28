@@ -65,8 +65,8 @@ export default {
 				gold: 'hsl(var(--gold))'
 			},
 			fontFamily: {
-				'cormorant': ['Cormorant', 'serif'],
-				'montserrat': ['Montserrat', 'sans-serif']
+				'cormorant': ['Playfair Display', 'serif'],
+				'montserrat': ['Inter', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
